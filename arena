@@ -1,15 +1,1 @@
-local folder = Instance.new("Folder")
-folder.Name = "GeneratedParts"
-folder.Parent = game.Workspace
-
-for i = 1, 100 do
-    local part = Instance.new("Part")
-    local x = math.random(-50, 50)
-    local y = math.random(10, 50)
-    local z = math.random(-50, 50)
-    part.Position = Vector3.new(x, y, z)
-    part.Color = Color3.new(math.random(), math.random(), math.random())
-    part.Anchored = true
-    
-    part.Parent = folder
-end
+1+1
